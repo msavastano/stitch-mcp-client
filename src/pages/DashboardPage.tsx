@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getServers } from '../api/mock';
-import { Server } from '../types';
+import type { Server } from '../types';
 import ServerCard from '../components/ServerCard';
 import Input from '../components/Input';
 import Button from '../components/Button';

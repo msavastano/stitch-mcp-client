@@ -1,4 +1,4 @@
-import { Server, Tool } from '../types';
+import type { Server, Tool } from '../types';
 
 const tools: Tool[] = [
   { id: '1', name: 'Performance Monitor', description: 'Real-time system performance and resource usage monitoring.', status: 'Selected', icon: 'monitoring' },

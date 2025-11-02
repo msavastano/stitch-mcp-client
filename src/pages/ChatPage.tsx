@@ -1,12 +1,11 @@
-import React from 'react';
-import Icon from '../components/Icon';
 import Button from '../components/Button';
+import Icon from '../components/Icon';
 import Input from '../components/Input';
 import Sidebar from '../components/Sidebar';
 
 const ChatPage = () => {
   return (
-    <div className="flex h-screen w-full font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+    <div className="flex h-screen bg-background-light dark:bg-background-dark">
       <Sidebar />
       <main className="flex flex-1 flex-col">
         <header className="flex h-16 shrink-0 items-center justify-end border-b border-gray-200 dark:border-gray-700/50 bg-surface-light dark:bg-surface-dark px-6">
